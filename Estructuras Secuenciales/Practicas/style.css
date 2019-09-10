@@ -37,3 +37,17 @@
         font-family: 'Raleway', sans-serif;
         font-size: 25px;
     }
+    /* ++++++++++++++++++++++ */
+    
+    .imagen {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen img {
+        width: 40%;
+        height: 30%;
+    }
+    /* ++++++++++++++++++++++ */
