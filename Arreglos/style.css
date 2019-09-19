@@ -63,5 +63,10 @@
     }
     
     #e2 {
-        height: 15vh;
+        height: 25vh;
+    }
+    
+    #listaImprimir {
+        overflow: scroll;
+        height: 25vh;
     }
