@@ -1,0 +1,63 @@
+    @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Pacifico|Quicksand|Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+    li {
+        /* list-style-type: none; */
+        font-family: 'Gayathri', sans-serif;
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 45px;
+    }
+    
+    p {
+        font-family: 'Gayathri', sans-serif;
+        font-size: 20px;
+    }
+    
+    label,
+    button {
+        font-family: 'Livvic', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .jumbotron {
+        border: solid 2px rgb(185, 207, 206);
+    }
+    
+    h4 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+    
+    #resultado {
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+    /* ++++++++++++++++++++++ */
+    
+    .imagen {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen img {
+        width: 40%;
+        height: 30%;
+    }
+    /* ++++++++++++++++++++++ */
+    
+    #p2 {
+        overflow: scroll;
+        height: 60vh;
+    }
+    
+    #p5 {
+        overflow: scroll;
+        height: 30vh;
+    }
