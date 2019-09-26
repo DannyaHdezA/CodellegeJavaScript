@@ -1,12 +1,14 @@
 let btnCalcular = document.getElementById('btnCalcular');
-let btnCalcularCaracteres = document.getElementById('btnCalcularCaracteres');
+let btnOrdenarCaracteres = document.getElementById('btnOrdenarCaracteres');
 let contador = 0;
+
+
 
 evento();
 
 function evento() {
     btnCalcular.addEventListener('click', addElements);
-    btnCalcularCaracteres.addEventListener('click', CalcularCadena);
+    btnOrdenarCaracteres.addEventListener('click', CalcularCadena);
 }
 
 function addElements() {
@@ -41,13 +43,19 @@ function CalcularCadena() {
     for (let i = 0; i < contador; i++) {
 
         array1[i] = document.getElementById(`listArrayR${i}`).value;
-
-        console.log("El carácter en el índice 0 es '" + array1[i].charAt(0) + "'");
-
-        array2[i] = array1[i].length;
-
     }
+
+    // ***************
+    let cont = 0;
+    for (let x = contador; x >= 0; x--) {
+        array2[cont] = array1[x];
+        cont++;
+    }
+    // MostrarElementos(arrayorden, 2);
+
+    console.log(array2);
     MostrarElementos(array2);
+
 
 }
 
@@ -55,8 +63,8 @@ function MostrarElementos(array2) {
 
     let ConcatenarResultado = "";
 
-    for (let y = 0; y < contador; y++) {
-        ConcatenarResultado += `<li class="list-group-item"> ${array2[y]}</li>`;
+    for (let y = 1; y <= contador; y++) {
+        ConcatenarResultado += `<li class="list-group-item mb-2"> ${array2[y]}</li>`;
     }
     document.getElementById('ArrayList2').innerHTML = ConcatenarResultado;
 

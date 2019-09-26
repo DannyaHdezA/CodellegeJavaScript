@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ejemplo 5</title>
+    <title>Práctica 7</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,53 +15,42 @@
 
 <body>
     <div class="container mt-4">
-        <h1>Ejemplo 5</h1>
-        <p>
-            Rellene un array con los números primos comprendidos entre 1 y 1000 y los muestre en pantalla en orden descendente.
-        </p>
-        <div class="jumbotron">
+        <h1>Práctica 7</h1>
+        <p>Que lea una cadena y la encripte sumando 3 al código ASCII de cada carácter. Mostrar por pantalla. </p>
+        <div class="jumbotron mt-3">
+            <!-- input -->
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="">Ingrese el tamaño del array:</label>
-                        <input type="number" id="TamArray" class="form-control" placeholder="" aria-describedby="helpId">
+                        <label for="">Ingrese la palabra:</label>
+                        <input type="text" id="InputNumbers" class="form-control" placeholder="" aria-describedby="helpId">
                     </div>
                 </div>
             </div>
-            <!-- lista -->
             <div class="row">
                 <div class="col-12">
-                    <ul class="list-group-item" id="listaImprimir">
+                    <ul id="AlertPrint" class="alert alert-success" role="alert">
                     </ul>
                 </div>
             </div>
 
         </div>
-        <!-- boton -->
-        <div class="row">
-            <div class="col-12">
-                <button type="button" name="" id="btnNumAleatorios" class="btn btn-outline-primary btn-lg btn-block">Generar Elementos</button>
-            </div>
-        </div>
-        <!-- alert -->
-        <div class="row mt-3">
-            <div class="col-12">
-                <div class="alert alert-success" role="alert">
-                    <h4 class="alert-heading" id="resultado"></h4>
-                    <p></p>
-                    <p class="mb-0"></p>
-                </div>
-            </div>
-        </div>
 
     </div>
 
     <!-- Optional JavaScript -->
+
+    <!-- swal- link para animacion  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <script src="./P7.js"></script>
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
+
 </body>
 
 </html>
