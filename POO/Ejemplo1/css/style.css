@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contenedor {
+    background: rgb(161, 108, 125);
+    /* width: 90vw; */
+    height: 75vh;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.contenedor span {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    display: block;
+    position: absolute;
+}
+
+label,
+button {
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    border: solid 2px rgb(185, 207, 206);
+}
