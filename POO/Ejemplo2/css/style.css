@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    font-family: 'Livvic', sans-serif;
+    /* width: 90vw; */
+    height: 75vh;
+    position: relative;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor span {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    display: block;
+    position: absolute;
+}
+
+label {
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+#aceptar,
+#salir {
+    background: rgb(168, 163, 156);
+    border: solid 1.5px grey;
+    color: #000;
+    font-weight: bold;
+}
+
+.jumbotron {
+    border: solid 2px rgb(185, 207, 206);
+    width: 40vw;
+    height: 50vh;
+    background: rgb(205, 182, 219);
+}
+
+#respuesta {
+    height: 100px;
+    border: solid 2px black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botones button {
+    font-family: 'Livvic', sans-serif;
+    font-size: 17px;
+}
+
+#botones {
+    border: solid 2px rgb(185, 207, 206);
+    width: 40vw;
+    height: 50vh;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#favor {
+    background: rgb(81, 168, 23);
+    border: solid 1.5px rgb(105, 184, 3);
+}
+
+#contra {
+    background: rgb(223, 137, 25);
+    border: solid 1.5px rgb(224, 170, 21);
+}
+
+#abstencion {
+    background: rgb(168, 163, 156);
+    border: solid 1.5px grey;
+}
+
+#finalizar {
+    background: rgb(209, 46, 5);
+    border: solid 1.5px rgb(148, 5, 5);
+}
