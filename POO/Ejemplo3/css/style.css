@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+/* font-family: 'Livvic', sans-serif; */
+
+.size-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.size-car {
+    display: block;
+    width: 140px;
+    height: 70px;
+    position: absolute;
+}
+
+.size-container * {
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 90px;
+}
