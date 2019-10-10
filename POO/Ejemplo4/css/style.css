@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+/* font-family: 'Livvic', sans-serif; */
+
+.size-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.size-container * {
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 90px;
+}
+
+.jumbotron {
+    border: 2px solid rgb(165, 162, 162);
+}
+
+#lista-tweets {
+    height: 40vh;
+    overflow: scroll;
+}
+
+#tweet {
+    resize: none;
+}
+
+h1 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 70px;
+}
+
+label {
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+}
